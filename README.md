@@ -1,6 +1,7 @@
 # 🤖 Multiagent framework
+
+# 🚀 Internship Project Context
 ```bash
-🚀 Internship Project Context  
 Built as part of the Prodigal AI Internship — Day 61 to 75.
 
 Objective: Implement the Prodigal AI Agents Framework initial structure and demo.  
@@ -15,8 +16,8 @@ logging, and an expandable architecture for future agents.
 - Logging for task execution flow
 - Ready for GitHub issue tracking and contributions
 ```
+# 🛠️ Installation
 ```bash
-🛠️ Installation
 # Clone the repository
 git clone https://github.com/YOUR_USERNAME/multiagent_framework.git
 cd multiagent_framework
@@ -28,8 +29,9 @@ venv\Scripts\activate     # On Windows
 # Install dependencies
 pip install -r requirements.txt
 ```
+
+# 🧪 Usage
 ```bash
-🧪 Usage
 # Run the CLI from project root
 python -m src.main "Hello" --source en --target fr
 
@@ -43,8 +45,9 @@ python -m src.main "Hello" --source en --target fr
 python -m src.main "Hello World" --source en --target es
 # Output: Hola Mundo
 ```
+
+# 📂 Project Structure
 ```bash
-📂 Project Structure
 multiagent_framework/
 │
 ├── src/
@@ -61,8 +64,9 @@ multiagent_framework/
 ├── .gitignore
 └── .github/            # Issue & PR templates
 ```
+
+# 🧠 Demo Translations
 ```bash
-🧠 Demo Translations
 | Source | Target | Input        | Output              |
 |--------|--------|--------------|---------------------|
 | en     | fr     | Hello        | Bonjour             |
@@ -72,16 +76,18 @@ multiagent_framework/
 | en     | de     | Hello        | Hallo               |
 | fr     | en     | Bonjour      | Hello               |
 ```
+
+# 📌 Contribution Guidelines
 ```bash
-📌 Contribution Guidelines
 - Fork the repository
 - Create a feature branch
 - Use Conventional Commits format (feat:, fix:, docs:)
 - Ensure all tests pass before PR
 - Submit a Pull Request with a clear description
 ```
+
+# 📜 .gitignore (important)
 ```bash
-📜 .gitignore (important)
 __pycache__/
 *.pyc
 .venv/
@@ -89,16 +95,19 @@ env/
 venv/
 .cache/
 ```
+
+# 💬 Notes
 ```bash
-💬 Notes
 - This is a CLI-first framework, but architecture is API-ready (FastAPI can be added later).
 - Empty files like health_check.py and agent_scheduler.py are placeholders for future functionality.
 - Pydantic schemas ensure strict validation of both input and output.
 ```
+
+# 🧑‍💻 Author
 ```bash
-🧑‍💻 Author
 Atharv Chaugale  
 GitHub: https://github.com/atharvvv10
 ```
+
 
 
